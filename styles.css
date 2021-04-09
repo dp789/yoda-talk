@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-image: url("bg.jpg");
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: "Major Mono Display", monospace;
+  }
+  
+  :root {
+    --primary: #333333;
+    --text-color: white;
+    --width-break: 600px;
+  }
+  
+  nav {
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 1rem;
+  }
+  
+  textarea {
+    width: 90%;
+    height: 10vh;
+    margin: 1rem;
+    font-size: x-large;
+    font-family: inherit;
+    color: var(--text-color);
+    font-weight: bolder;
+    background-color: transparent;
+  }
+  
+  button {
+    background-color: transparent;
+    border-color: var(--text-color);
+    margin: 1rem;
+    padding: 1rem 2rem;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: inherit;
+    color: var(--text-color);
+    text-align: center;
+    size: 50%;
+  }
+  
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    color: var(--text-color);
+  }
+  
+  #output {
+    padding: 1rem;
+    font-size: large;
+    box-sizing: border-box;
+    margin: 1rem;
+    width: 90%;
+    min-height: 10vh;
+    max-height: 20vh;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+  }
+  
+  /**
+  
+  
+  #text-input {
+    display: block;
+    width: 90%;
+    height: 10vh;
+    margin: 1rem;
+  }
+  
+   */
